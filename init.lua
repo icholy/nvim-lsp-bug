@@ -8,8 +8,7 @@ require("packer").startup(function(use)
   use({
     "neovim/nvim-lspconfig",
     config = function()
-      local lspconfig = require("lspconfig")
-      lspconfig.eslint.setup({})
+      require("lspconfig").eslint.setup({})
     end
   })
 end)
