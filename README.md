@@ -6,3 +6,7 @@
 * Open source file`vim main.js`
 * Insert tab on second line. `ji<TAB><ESC>`.
 * Run `:EslintFixAll`.
+
+# Demo
+
+![](./tty.gif)
