@@ -1,12 +1,7 @@
 # Steps
 
-* Use `init.lua` config.
-* Install eslint lsp: `npm i -g vscode-langservers-extracted`.
-* Install npm dependencies: `npm i`.
-* Open source file`vim main.js`
-* Insert tab at the beginning of the line. `i<TAB><ESC>`.
-* Run `:EslintFixAll`.
+* Install gopls `go install golang.org/x/tools/gopls@latest`
+* Open file `nvim --clean -u init.lua main.go`
+* Insert tab character `i<TAB><ESC>`
+* Format the file `:lua vim.lsp.buf.format()`
 
-# Demo
-
-![](./tty.gif)

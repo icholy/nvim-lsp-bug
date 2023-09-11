@@ -6,4 +6,6 @@ vim.o.packpath = ".";
 
 vim.cmd.packadd("nvim-lspconfig")
 
-require("lspconfig").eslint.setup({})
+vim.lsp.set_log_level("debug")
+
+require('lspconfig').gopls.setup({})
